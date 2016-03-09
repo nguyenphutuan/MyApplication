@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.nguyenphutuan.myapplication.customscroll
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    tools:context="com.example.nguyenphutuan.myapplication.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/img"
+            android:background="@drawable/images"
+            android:layout_height="250dp" />
+        <ListView
+            android:id="@+id/listview"
+            android:background="#F00000"
+            android:layout_width="match_parent"
+            android:layout_height="700dp">
+
+        </ListView>
+
+    </LinearLayout>
+</com.example.nguyenphutuan.myapplication.customscroll>
